@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Test_task\Project.ADM\bin\Debug\net7.0\Project.ADM.deps.json
+C:\Users\user\source\repos\Test_task\Project.ADM\bin\Debug\net7.0\Project.ADM.runtimeconfig.json
+C:\Users\user\source\repos\Test_task\Project.ADM\bin\Debug\net7.0\Project.ADM.dll
+C:\Users\user\source\repos\Test_task\Project.ADM\bin\Debug\net7.0\Project.ADM.pdb
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.AssemblyInfo.cs
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.dll
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\refint\Project.ADM.dll
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.pdb
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\Project.ADM.genruntimeconfig.cache
+C:\Users\user\source\repos\Test_task\Project.ADM\obj\Debug\net7.0\ref\Project.ADM.dll
