@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Project.ADM.DbContexts;
-using Project.ADM.Models;
-using Project.ADM.Repositories.Interfaces;
+﻿using Project.ADM.Repositories.Interfaces;
 
 namespace Project.ADM.Repositories.Implementations
 {

@@ -11,10 +11,12 @@ namespace Project.ADM.Services.Implementations
     {
         private readonly IListCategoryRepository _listCategoryRepository;
 
+
         public ListCategoryService(IListCategoryRepository listCategoryRepository)
         {
             _listCategoryRepository = listCategoryRepository;
         }
+
 
         public async Task<ListCategory> GetListCategoryByIdAsync(byte id)
         {
@@ -30,5 +32,6 @@ namespace Project.ADM.Services.Implementations
         {
             await _listCategoryRepository.AddAsync(listCategory);
         }
+
     }
 }

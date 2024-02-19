@@ -1,16 +1,18 @@
-﻿using Project.ADM.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Project.ADM.Services.Interfaces
+﻿namespace Project.ADM.Services.Interfaces
 {
+    /// <summary>
+    /// Интерфейс сервиса для управления кэшем задач пользователя.
+    /// </summary>
     public interface ITaskUserCacheService
     {
+        /// <summary>
+        /// Получает все записи кэша задач.
+        /// </summary>
         Task<IEnumerable<TaskUserCache>> GetAllTaskUserCachesAsync();
+
+        /// <summary>
+        /// Добавляет новую запись в кэш задач.
+        /// </summary>
         Task CreateTaskUserCacheAsync(TaskUserCache taskUserCache);
     }
-
 }

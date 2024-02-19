@@ -1,6 +1,4 @@
-﻿using Project.ADM.Models;
-
-namespace Project.ADM.Repositories.Interfaces
+﻿namespace Project.ADM.Repositories.Interfaces
 {
     /// <summary>
     /// Определяет контракт репозитория для работы с пользователями.

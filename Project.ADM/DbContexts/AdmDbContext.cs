@@ -10,6 +10,8 @@ namespace Project.ADM.DbContexts
         public DbSet<User> Users { get; set; }
         public DbSet<ListCategory> ListCategories { get; set; }
         public DbSet<TaskUserCache> TaskUserCaches { get; set; }
+        public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<RolePermissionExt> RolePermissionExts { get; set; }
 
         public AdmDbContext(DbContextOptions<AdmDbContext> options)
             : base(options)

@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Project.ADM.DbContexts;
-using Project.ADM.Models;
-using Project.ADM.Repositories.Interfaces;
+﻿using Project.ADM.Repositories.Interfaces;
 
 namespace Project.ADM.Repositories.Implementations
 {
@@ -36,5 +33,13 @@ namespace Project.ADM.Repositories.Implementations
             await _context.TaskUserCaches.AddAsync(taskUserCache);
             await _context.SaveChangesAsync(); // Сохранение изменений в базе данных
         }
+
+        public async Task<IEnumerable<TaskUserCache>> GetByUserAndCategoryIdsAsync(int userId, IEnumerable<int> categoryIds)
+        {
+            return await _context.TaskUserCaches
+                .Where(tuc => tuc.UserID == userId && categoryIds.Contains(tuc.TaskListCategoryID))
+                .ToListAsync();
+        }
+
     }
 }

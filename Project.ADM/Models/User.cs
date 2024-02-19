@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Project.ADM.Models
+﻿namespace Project.ADM.Models
 {
+    /// <summary>
+    /// Пользователь системы.
+    /// </summary>
     public class User
     {
-        public int ID { get; set; }
+        public int ID { get; set; } // Уникальный идентификатор пользователя
 
-        // Навигационное свойство для связи с TaskUserCache
+        // Коллекция кэшированных задач, назначенных на пользователя
         public ICollection<TaskUserCache> TaskUserCaches { get; set; } = new List<TaskUserCache>();
+        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
 
     }
-
 }

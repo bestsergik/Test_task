@@ -1,5 +1,4 @@
-﻿using Project.ADM.Models;
-using Project.ADM.Repositories.Interfaces;
+﻿using Project.ADM.Repositories.Interfaces;
 using Project.ADM.Services.Interfaces;
 
 namespace Project.ADM.Services.Implementations

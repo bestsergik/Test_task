@@ -1,6 +1,4 @@
-﻿using Project.ADM.Models;
-
-namespace Project.ADM.Services.Interfaces
+﻿namespace Project.ADM.Services.Interfaces
 {
     /// <summary>
     /// Интерфейс сервиса для управления пользователями.
