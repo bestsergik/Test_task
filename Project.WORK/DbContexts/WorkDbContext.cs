@@ -22,7 +22,6 @@
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // Настройка моделей и отношений с использованием Fluent API
         }
     }
 }

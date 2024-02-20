@@ -1,5 +1,4 @@
-﻿using Project.WORK.Models;
-using Project.WORK.Repositories.Interfaces;
+﻿using Project.WORK.Repositories.Interfaces;
 using Project.WORK.Services.Interfaces;
 
 namespace Project.WORK.Services.Implementations

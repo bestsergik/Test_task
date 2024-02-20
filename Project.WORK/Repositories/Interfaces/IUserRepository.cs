@@ -1,17 +1,23 @@
-﻿using Project.WORK.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Project.WORK.Repositories.Interfaces
+﻿namespace Project.WORK.Repositories.Interfaces
 {
+    /// <summary>
+    /// Интерфейс для репозитория пользователей, обеспечивающий доступ к данным о пользователях.
+    /// </summary>
     public interface IUserRepository
     {
+        /// <summary>
+        /// Получает пользователя по идентификатору.
+        /// </summary>
         Task<User> GetByIdAsync(int id);
+
+        /// <summary>
+        /// Получает всех пользователей.
+        /// </summary>
         Task<IEnumerable<User>> GetAllAsync();
+
+        /// <summary>
+        /// Добавляет нового пользователя в базу данных.
+        /// </summary>
         Task AddAsync(User user);
     }
-
 }

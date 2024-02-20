@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Project.WORK.Models
+﻿namespace Project.WORK.Models
 {
+    /// <summary>
+    /// Категория списка задач.
+    /// </summary>
     public class ListCategory
     {
-        public byte ID { get; set; }
-        public short? PermissionExtID { get; set; }
+        public byte ID { get; set; } // Уникальный идентификатор категории
+        public short? PermissionExtID { get; set; } // Опциональный идентификатор расширенного разрешения
     }
 }

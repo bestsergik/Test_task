@@ -1,7 +1,4 @@
-﻿using Project.WORK.Models;
-
-
-namespace Project.WORK.Services.Interfaces
+﻿namespace Project.WORK.Services.Interfaces
 {
     public interface IListCategoryService
     {
